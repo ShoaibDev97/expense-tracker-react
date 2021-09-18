@@ -1,0 +1,23 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.form-container input,
+.form-container select {
+  min-width: 250px;
+  outline: none;
+  border: none;
+  margin-top: 12px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  padding: 10px 16px;
+}
+.transaction-type {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: space-between;
+  justify-content: space-between;
+}
